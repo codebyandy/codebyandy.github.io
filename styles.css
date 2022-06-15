@@ -1,4 +1,8 @@
 
+body {
+    margin: 0px;
+ }
+
 h1 {
     font-family: 'Segoe UI';
     color: rgb(50, 166, 239);
@@ -87,19 +91,23 @@ p {
 }
 
 .topnav {
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content:space-between;
     flex-direction: row;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Segoe UI';
+    position: sticky;
+    top: 0;
+    background-color: rgb(50, 166, 239);
+    padding: 5px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     /* float: left; */
-    color: black;
+    color: white;
     /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
@@ -110,14 +118,13 @@ p {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(228, 228, 228);
-    color: black;
+    background-color: lightskyblue;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    color:  rgb(50, 166, 239);
-    border-color: rgb(50, 166, 239);
+    color:  white;
+    border-color: white;
     border-style: solid;
   }
 
@@ -129,5 +136,5 @@ p {
   }
 
   .logo {
-    height: 50px
+    height: 60px
   }
