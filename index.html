@@ -1,25 +1,101 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Add React in One Minute</title>
-  </head>
-  <body>
+<!doctype html>
 
-    <h2>Add React in One Minute</h2>
-    <p>This page demonstrates using React with no build tooling.</p>
-    <p>React is loaded as a script tag.</p>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Andy Viet Huynh</title>
+  <link rel="icon" href="img/profile.jpg">
+  <link href="styles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
+<body>
+    <div id="navbar" class="topnav">
+        <div class="navleft">
+            <img class="logo" src="img/logo.png" alt="AVH Logo">
+        </div>
+        <div>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">About</a>
+            <a href="#contact">Blog</a>
+        </div>    
+    </div>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <div class="homeheader">
+        <img class="profileimg" src="img/profile.jpg" alt="profile">
+        <h1>Andy Viet Huynh</h1>
+        <p>Computer Science & Biology @ Stanford University</p>
+        <p style="font-style: italic;">Discovering software engineering, machine learning, and ecology</p>
+        <div class="socialbox">
+            <img class="social" src="img/linkedin.png" alt="LinkedIn Logo">
+            <img class="social" src="img/github.png" alt="GitHub Logo">
+            <img class="social" src="img/email.png" alt="Email Logo">
+        </div>
+    </div>
 
-    <!-- Load our React component. -->
-    <script src="like_button.js"></script>
+    <div class="featured">
+        <h2>Featured Projects</h2>
+        <div class="projectbox">
+            <div class="projectcard">
+                    <div class="projecttype">Mobile Application</div>
+                    <img class="projectimg" src="img/recipal.jpg" alt="Recipal Poster">
+                    <div class="projectdesc">
+                        <h2 style="margin: 0%">Recipal</h2>
+                        <p style="font-style: italic;">Course Project (CS147: Intro to HCI)</p>
+                        <p>Role: Mobile Developer, UI/UX Designer</p>
+                        <p>Skills: React Native, Git, Figma</p>
+                        <p style="margin-top: 15px">Designed and developed a high-fidelity prototype for a recipe personalization mobile application.</p>
+                    </div>
+            </div>
+            <div class="projectcard">
+                <div class="projecttype">Machine Learning</div>
+                <img class="projectimg" src="img/solar.jpg" alt="Recipal Poster">
+                <div class="projectdesc">
+                    <h2 style="margin: 0%">Solar Digital</h2>
+                    <p style="font-style: italic;">Course Project (CS230: Deep Learning)</p>
+                    <p>Roles: Applied Machine Learning Engineer</p>
+                    <p>Skills: TensorFlow, AWS, Jupyter Notebooks, Git, Python</p>
+                    <p style="margin-top: 15px">Built a image classification and segmentation model using ResNet-30 for solar panel detection from satellite imagery.</p>
+                </div>
+            </div>
+            <div class="projectcard">
+                <div class="projecttype">Software Engineering</div>
+                <img class="projectimg" src="img/solardigital.jpg" alt="Recipal Poster">
+                <div class="projectdesc">
+                    <h2 style="margin: 0%">Bare Metal PC Shell</h2>
+                    <p style="font-style: italic;">Course Project (CS107E: Computer Systems from the Ground Up)</p>
+                    <p>Role: Software Developer</p>
+                    <p>Skills: C, Git, Raspberry Pi</p>
+                    <p style="margin-top: 15px">Constructed working Unix-based console using the Raspberry Pi's ARM architecture.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
 
-  </body>
+    <script  type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+        }
+    </script>
+
+    <!-- <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="WelcomeBack.js"></script> -->
+    <!-- <script type="text/babel" src="CoolButton.js"></script> -->
+
+    <!-- <script type="text/babel">
+        ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+    </script> -->
+
+    
+    </body>
 </html>
