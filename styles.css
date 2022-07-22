@@ -1,7 +1,8 @@
 
 body {
     margin: 0px;
- }
+    font-family: 'Segoe UI';
+}
 
 h1 {
     font-family: 'Segoe UI';
@@ -13,9 +14,28 @@ h2 {
     font-family: 'Segoe UI';
 }
 
+h3 {
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
 p {
     font-family: 'Segoe UI';
     margin: 1px;
+}
+
+.nonav {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .homeheader {
@@ -52,12 +72,23 @@ p {
     margin: 30px;
 }
 
+/* .subh {
+    margin-bottom: "10000px";
+} */
+
 .projectbox {
     width: 1200px;
-    height: 600px;
+    height: 360px;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(251, 243, 232);
     padding: 50px;
+}
+
+.projectboxinner {
+    width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,7 +96,7 @@ p {
 
 .projectcard {
     width: 370px;
-    height: 580px;
+    height: 350px;
     background-color: white;
     box-shadow: 1px 1px 4px rgb(126, 126, 126);
     border-radius: 25px;
@@ -87,7 +118,8 @@ p {
 }
 
 .projectdesc {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .topnav {
@@ -137,4 +169,37 @@ p {
 
   .logo {
     height: 60px
+  }
+
+  .article {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .article-title {
+    text-align: center;
+    width: 600px;
+  }
+
+  .article-body {
+    margin-top: 50px;
+  }
+
+  .article-img {
+    padding: 50px;
+    /* width: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links {
+    display: flex;
+    /* align-items:baseline; */
+    justify-content:space-between ;
+    margin: 20px;
   }
