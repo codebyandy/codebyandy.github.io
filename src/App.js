@@ -1,32 +1,20 @@
 import NavBar from './components/navBar';
 import Header from './components/header';
+import HomePage from './components/pages/homePage';
+import ProjectsPage from './components/pages/projectsPage';
+import Footer from './components/footer';
 import './App.css';
-import ProjectCard from './components/projectCard';
+
 
 function App() {
   return (
     <div>
-        <NavBar/>
-        <Header/>
-        <div className="featured">
-            <h2>Featured Projects</h2>
-            <div className="projectbox">
-                <div style={{'padding-top': '20px', 'padding-bottom': '20px', 'font-size': '20px'}}>Software Engineering</div>
-                <div className="projectboxinner">
-                  <ProjectCard/>
-                  <ProjectCard/>
-                  <ProjectCard/>
-                </div>
-                <div style={{'padding-top': '20px', 'padding-bottom': '20px','font-size': '20px'}}>Biology Research</div>
-                <div className="projectboxinner">
-                  <ProjectCard/>
-                  <ProjectCard/>
-                  <ProjectCard/>
-                </div>
-            </div>
-        </div>
-      </div>        
-  );
+      <NavBar/>
+      <Header/>
+      <ProjectsPage/> 
+      <Footer/>
+    </div>
+  )
 }
 
-export default App;
+export default App

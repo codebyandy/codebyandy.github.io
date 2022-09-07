@@ -1,11 +1,29 @@
 
+.pageHeader {
+    height: 140px;
+    display: flex;
+    align-items: end;
+    padding: 50px;
+    background-color: #C4DDFF;
+    font-size: 100px;
+}
+
 .header {
     height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #C4DDFF;
+}
+
+.header {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4DDFF;
 }
 
 .infoBox {
@@ -15,14 +33,15 @@
     flex-direction: row;
     align-items: center;
     color: white;
-    background-color: gray;
+    background-color: #446491;
     border-radius: 30px;  
 }
 
 .profileImg {
     height: 275px;
     width: 275px;
-    padding: 30px;
+    margin: 30px;
+    border: 5px solid white;
     border-radius: 100%;
 }
 
@@ -54,7 +73,4 @@
     justify-content: space-between;
 }
 
-.socialIcon {
-    height: 28px;
-}
 

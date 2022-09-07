@@ -7,7 +7,7 @@ function NavBar() {
                 <p>Home</p>
                 <p>Projects</p>
                 <p>Blog</p>
-                <p>About</p>
+                <p>Bio</p>
             </div>
         </div>
     )
