@@ -1,27 +1,60 @@
 
 .header {
     height: 500px;
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
 }
 
-.headerInfo {
+.infoBox {
     height: 70%;
     width: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     color: white;
     background-color: gray;
     border-radius: 30px;  
 }
 
-.profile {
+.profileImg {
     height: 275px;
     width: 275px;
+    padding: 30px;
     border-radius: 100%;
 }
+
+.infoBoxRight {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textName {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.textSlogan {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.textRole {
+    font-size: 16px;
+}
+
+.socialBox {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialIcon {
+    height: 28px;
+}
+
