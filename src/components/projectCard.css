@@ -1,0 +1,28 @@
+
+.projectcard {
+    width: 370px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(126, 126, 126);
+    /* border-radius: 25px; */
+    /* overflow: hidden; */
+}
+
+.projecttype {
+    height: 40px;
+    background-color: rgb(50, 166, 239);
+    color: white;
+    font-family: "Segoe UI";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectimg {
+    height: 35%;
+}
+
+.projectdesc {
+    padding-left: 20px;
+    padding-right: 20px;
+}

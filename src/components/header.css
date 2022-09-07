@@ -1,0 +1,27 @@
+
+.header {
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerInfo {
+    height: 70%;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: gray;
+    border-radius: 30px;  
+}
+
+.profile {
+    height: 275px;
+    width: 275px;
+    border-radius: 100%;
+}
