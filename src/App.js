@@ -4,16 +4,18 @@ import HomePage from './components/pages/homePage';
 import ProjectsPage from './components/pages/projectsPage';
 import Footer from './components/footer';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar/>
-      <Header/>
-      <ProjectsPage/> 
+      <Routes>
+        <Route exact path='/' element={<HomePage/>}/>
+        <Route path='/projects' element={<ProjectsPage/>}/>
+      </Routes>
       <Footer/>
-    </div>
+    </Router>
   )
 }
 

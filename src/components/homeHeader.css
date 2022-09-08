@@ -1,0 +1,73 @@
+
+.header {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4DDFF;
+}
+
+.infoBox {
+    height: 70%;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #446491;
+    border-radius: 30px;  
+}
+
+.profileImg {
+    height: 275px;
+    width: 275px;
+    margin: 30px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.infoBoxRight {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textName {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.textSlogan {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.textRole {
+    font-size: 16px;
+    transition: transform 0.25s ease-out;
+}
+
+.textRole:hover {
+    transform: scale(1.02);
+}
+
+.socialBox {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialButton {
+    color: inherit;
+    text-decoration: inherit;
+    transition: transform 0.25s ease-out;
+}
+
+.socialButton:hover {
+    transform: scale(1.1);
+}
+
+

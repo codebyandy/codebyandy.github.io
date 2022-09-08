@@ -1,8 +1,11 @@
 import ProjectCard from '../projectCard'
 import './homePage.css'
+import Header from '../homeHeader'
 
 function HomePage() {
     return(
+        <>
+        <Header/>
         <div className='main'>
             <div className='bioBox'>   
                 <div>
@@ -33,6 +36,7 @@ function HomePage() {
             </div>
             <div className='checkButton'>Check out more projects</div>
         </div>
+        </>
     )
 }
 
