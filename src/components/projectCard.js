@@ -1,21 +1,24 @@
 import './projectCard.css'
+import { Link } from 'react-router-dom'
 
-function ProjectCard() {
+function ProjectCard({title, img, type, desc, skills}) { 
     return (
         <div className="projectCard">
             <div className='projectTop'>
                 {/* <div className="projectType">Machine Learning</div> */}
-                <img className="projectImg" src={require('../img/tn-placeholder.png')}/>
+                <img className="projectImg" src={img}/>
             </div>
             <div className="projectDesc">
-                <div className='projectTitle'>Solar Digital</div>
-                <div>Course Project (CS230 Deep Learning)</div>
+                <div className='projectTitle'>{title}</div>
+                <div>{type}</div>
             </div>
-            <div className="projectDesc">Built a image classification and segmentation model using ResNet-30 for solar panel detection from satellite imagery.</div>
-            <div className="projectDesc">TensorFlow, Keras, Jupyter Notebooks</div>
-            <div className="more">
-                Learn More 
-            </div>
+            <div className="projectDesc">{desc}</div>
+            <div className="projectDesc">{skills}</div>
+            <Link style={{textDecoration: 'inherit'}} to='#'>
+                <div className="more">
+                    Learn More 
+                </div>
+            </Link>
         </div>
     )
 }

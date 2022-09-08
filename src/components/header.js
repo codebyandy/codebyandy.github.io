@@ -2,10 +2,10 @@ import './header.css'
 import { IconContext } from 'react-icons'
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai'
 
-function Header() {
+function Header({title}) {
     return (
         <div className='pageHeader'>
-            Projects
+            {title}
         </div>
         // <div className='header'>
         //     <div className ='infoBox'>

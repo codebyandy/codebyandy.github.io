@@ -8,6 +8,11 @@
     justify-content: space-between;
     /* border-radius: 25px; */
     /* overflow: hidden; */
+    transition: transform 0.25s ease-out;
+}
+
+.projectCard:hover {
+    transform: scale(1.03);
 }
 
 .projectTop {
@@ -47,4 +52,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.more:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #446491;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.more:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

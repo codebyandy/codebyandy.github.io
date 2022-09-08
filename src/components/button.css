@@ -6,7 +6,16 @@
     border: #446491 solid 3px;
     color: #446491;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 16pt;
     margin-bottom: 30px;
     font-weight: bold;
+    transition: color 0.25s ease-in;
+    transition: 'border-color' 0.25s ease-in;
+    transition: transform 0.25s ease-out;
+}
+
+.button:hover {
+    color:#6686b3;
+    border-color: #6686b3;
+    transform: scale(1.001);
 }

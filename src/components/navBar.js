@@ -8,7 +8,7 @@ function NavBar() {
                 <Link className='navButton' to='/'>Home</Link>
                 <Link className='navButton' to='/projects'>Projects</Link>
                 <Link className='navButton' to='/'>Blog</Link>
-                <Link className='navButton' to='/'>Bio</Link>
+                <Link className='navButton' to='/bio'>Bio</Link>
             </div>
         </div>
     )

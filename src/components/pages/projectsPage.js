@@ -23,7 +23,7 @@ function ProjectsPage() {
 
     return(
         <>
-        <Header/>
+        <Header title={'Projects'}/>
         <div className='projects'>
             <div className='filterBox'>
                 <MyButton text={'Software'} width={'130px'}/>

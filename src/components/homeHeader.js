@@ -18,7 +18,7 @@ function Header() {
                             <div className='textRole'>💻 Computer Science Student @ Stanford University</div>
                         </Link>
                         <Link className='socialButton' to='#' onClick={() => {window.open('http://petrov.stanford.edu/')}}>
-                            <div className='textRole'>🧬 Evolution Research Intern @ The Petrov Lab</div>
+                            <div className='textRole'>🧬 Evolution Research Intern @ Stanford Petrov Lab</div>
                         </Link>
                     </div>
                     <div className='socialBox'>
