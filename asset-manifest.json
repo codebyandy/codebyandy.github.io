@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.05afdf02.css",
-    "main.js": "/static/js/main.6d2002fd.js",
-    "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
-    "static/media/bio_profile.jpg": "/static/media/bio_profile.bb9e086f0f73cdb7c1ac.jpg",
-    "static/media/profile.jpg": "/static/media/profile.f00a4b573978c37af522.jpg",
-    "static/media/wildlife_tn.png": "/static/media/wildlife_tn.d3c02b843882ecd5be3a.png",
-    "static/media/solar_digital_tn.png": "/static/media/solar_digital_tn.ba211bde56bd7bbdca40.png",
-    "static/media/petrov_tn.png": "/static/media/petrov_tn.abba56beb57563ab8a64.png",
-    "static/media/mordecai_tn.png": "/static/media/mordecai_tn.453a6c26a560ae93c4ac.png",
-    "static/media/cobb_tn.png": "/static/media/cobb_tn.5d23ffcd24791f5913fa.png",
-    "static/media/hssi_tn.png": "/static/media/hssi_tn.7d8fe08edc6804fb6367.png",
-    "static/media/recipal_tn.png": "/static/media/recipal_tn.378145716ba36a582faa.png",
-    "index.html": "/index.html",
-    "main.05afdf02.css.map": "/static/css/main.05afdf02.css.map",
-    "main.6d2002fd.js.map": "/static/js/main.6d2002fd.js.map",
-    "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
+    "main.css": "/codebyandy.github.io/static/css/main.05afdf02.css",
+    "main.js": "/codebyandy.github.io/static/js/main.3096178a.js",
+    "static/js/787.dd4029b4.chunk.js": "/codebyandy.github.io/static/js/787.dd4029b4.chunk.js",
+    "static/media/bio_profile.jpg": "/codebyandy.github.io/static/media/bio_profile.bb9e086f0f73cdb7c1ac.jpg",
+    "static/media/profile.jpg": "/codebyandy.github.io/static/media/profile.f00a4b573978c37af522.jpg",
+    "static/media/wildlife_tn.png": "/codebyandy.github.io/static/media/wildlife_tn.d3c02b843882ecd5be3a.png",
+    "static/media/solar_digital_tn.png": "/codebyandy.github.io/static/media/solar_digital_tn.ba211bde56bd7bbdca40.png",
+    "static/media/petrov_tn.png": "/codebyandy.github.io/static/media/petrov_tn.abba56beb57563ab8a64.png",
+    "static/media/mordecai_tn.png": "/codebyandy.github.io/static/media/mordecai_tn.453a6c26a560ae93c4ac.png",
+    "static/media/cobb_tn.png": "/codebyandy.github.io/static/media/cobb_tn.5d23ffcd24791f5913fa.png",
+    "static/media/hssi_tn.png": "/codebyandy.github.io/static/media/hssi_tn.7d8fe08edc6804fb6367.png",
+    "static/media/recipal_tn.png": "/codebyandy.github.io/static/media/recipal_tn.378145716ba36a582faa.png",
+    "index.html": "/codebyandy.github.io/index.html",
+    "main.05afdf02.css.map": "/codebyandy.github.io/static/css/main.05afdf02.css.map",
+    "main.3096178a.js.map": "/codebyandy.github.io/static/js/main.3096178a.js.map",
+    "787.dd4029b4.chunk.js.map": "/codebyandy.github.io/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05afdf02.css",
-    "static/js/main.6d2002fd.js"
+    "static/js/main.3096178a.js"
   ]
 }
