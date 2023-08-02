@@ -1,11 +1,12 @@
 
 .header {
-    height: 500px;
+    height:350px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #C4DDFF;
+    /* background-color: #C4DDFF; */
+    background-color: white;
 }
 
 .infoBox {
@@ -14,29 +15,32 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: white;
-    background-color: #446491;
+    color: black;
+    background-color: white;
+    /* background-color: #446491; */
     border-radius: 30px;  
+    justify-content:space-around;
 }
 
 .profileImg {
-    height: 275px;
-    width: 275px;
+    height: 250px;
+    width: 250px;
     margin: 30px;
     border: 5px solid white;
     border-radius: 100%;
 }
 
 .infoBoxRight {
-    height: 230px;
+    height: 170px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .textName {
     font-size: 36px;
     font-weight: bold;
+    color: #335381;
 }
 
 .textSlogan {

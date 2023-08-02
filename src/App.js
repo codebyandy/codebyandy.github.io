@@ -10,13 +10,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <NavBar/>
+      {/* <NavBar/> */}
       <Routes>
         <Route exact path='/' element={<HomePage/>}/>
         <Route path='/projects' element={<ProjectsPage/>}/>
         <Route path='/bio' element={<BioPage/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </Router>
   )
 }

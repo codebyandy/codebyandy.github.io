@@ -8,3 +8,11 @@
     background-color: #C4DDFF;
     font-size: 80px;
 }
+
+.projectRowBox {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}

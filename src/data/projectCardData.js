@@ -40,7 +40,28 @@ const Projects = [
         type: 'Pharmacology Researcher @ UTSW Cobb Lab',
         desc: 'Investigated mechanisms (insulin secretion, metabolism, calcium influx, and gene expression) of 7 beta cell inhibitors.',
         // skills: 'C, Raspberry Pi'
-    }
+    },
+    {
+        title: 'The Stanford Daily',
+        img: require('../img/thumbnails/daily_tn.png'),
+        type: 'Managing Editor of Photo & Video',
+        desc: 'Delegated responsibilities for 50+ photo/video staffers and oversaw timelines for 30+ multimedia projects for YouTube and social media platforms',
+        // skills: 'C, Raspberry Pi'
+    },
+    {
+        title: 'High School Support Initiative',
+        img: require('../img/thumbnails/hssi_tn.png'),
+        type: 'Education Partnerships Fellow',
+        desc: 'Trained tutor-mentor team and collaborated with community partners to provide academic and social-emotional enrichment for low-income youth.',
+        // skills: 'C, Raspberry Pi'
+    },
+    {
+        title: 'Wildlife Photography',
+        img: require('../img/thumbnails/wildlife_tn.png'),
+        type: 'Personal Project',
+        desc: 'Discovering and capturing beautiful fauna, especially birds and reptiles.',
+        // skills: 'C, Raspberry Pi'
+    },
 ]
 
 export default Projects;
