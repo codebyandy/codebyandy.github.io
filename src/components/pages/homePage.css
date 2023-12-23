@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    background-color: #fae7d3;
+    /* background-color: #fae7d3; */
     border-radius: 20px;
     padding: 24px;
     margin-bottom: 40px; 
@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px;
+    margin-bottom: 100px;
 }
 
 .heading {
@@ -62,21 +63,22 @@
     width: 900px;
     height: 200px;
     /* padding: 3px; */
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .projImg {
-    width: 300px;
+    width: 30%;
     height: 170px;
     background-color: gray;
-    /* border-radius: 10%; */
+    border-radius: 5%;
 }
 
 .projTxt {
-    /* padding: 5%; */
+    width: 70%;
+    padding: 5%;
 }
 
 .projTitle {
@@ -94,5 +96,137 @@
 }
 
 .projLinks {
+    flex-direction: row;
+    padding-top: 10pt;
     font-size: 15px;
+    /* color: #a56600; */
+}
+
+
+/* BUTTONS */
+
+.textRole {
+    /* font-size: 16px; */
+    /* font-size: 30px; */
+    margin-bottom: 10px;
+    transition: transform 0.25s ease-out;
+}
+
+.textRole:hover {
+    transform: scale(1.02);
+}
+
+.socialBox {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialButton {
+    color: inherit;
+    text-decoration: inherit;
+    transition: transform 0.25s ease-out;
+}
+
+.socialButton:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Existing styles */
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    .bioBox {
+        width: 90%; /* Adjust width to be responsive */
+        height: auto; /* Let height adjust as per content */
+        padding: 16px; /* Decrease padding for smaller screens */
+        font-size: 16px; /* Decrease font size for better readability on mobile */
+        margin-bottom: 20px; /* Adjust margin for better spacing */
+    }
+
+    .heading {
+        font-size: 24px; /* Decrease heading font size */
+        margin-bottom: 15px;
+    }
+
+    .projectBox {
+        width: 90%; /* Adjust width to be responsive */
+        border-radius: 15px; /* Decrease border radius */
+        margin-bottom: 20px;
+    }
+
+    .projectRowHeading {
+        font-size: 18px; /* Decrease font size */
+        margin-bottom: 15px;
+    }
+
+    .projectRowBox {
+        width: 90%; /* Adjust width to be responsive */
+        flex-direction: column; /* Stack rows vertically */
+        align-items: center; /* Center align items */
+        margin-bottom: 20px;
+    }
+
+    .link {
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .projectGallery {
+        display: block; /* Adjust display for better mobile view */
+    }
+
+    .project {
+        width: 90%; /* Adjust width to be responsive */
+        height: auto; /* Let height adjust as per content */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center align items */
+        margin-bottom: 20px;
+    }
+
+    .projImg {
+        width: 100%; /* Adjust image width */
+        height: auto; /* Let height adjust as per content */
+        margin-bottom: 10px;
+    }
+
+    .projTxt {
+        width: 100%; /* Adjust width to be responsive */
+        padding: 8px; /* Increase padding for better spacing */
+    }
+
+    .projTitle {
+        font-size: 18px; /* Decrease title font size */
+        margin-bottom: 8px;
+    }
+
+    .projAuthors,
+    .projDesc {
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .projLinks {
+        flex-direction: column; /* Stack links vertically */
+        padding-top: 5px; /* Adjust padding */
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .textRole {
+        font-size: 16px; /* Decrease font size */
+        margin-bottom: 8px; /* Adjust margin */
+    }
+
+    .socialBox {
+        width: 100%; /* Adjust width to be responsive */
+        justify-content: center; /* Center align items */
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+
+    .socialButton {
+        font-size: 18px; /* Adjust font size */
+        margin: 0 8px; /* Add margin for spacing */
+    }
 }
