@@ -1,11 +1,13 @@
 
 .header {
-    height: 500px;
+    height:350px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #C4DDFF;
+    background-color: #daecf3;
+    /* background-color: #fbf2e7; */
+    /* background-color: white; */
 }
 
 .infoBox {
@@ -14,29 +16,32 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: white;
-    background-color: #446491;
-    border-radius: 30px;  
+    color: black;
+    /* background-color: white; */
+    /* background-color: #446491; */
+    border-radius: 20px;  
+    justify-content:space-around;
 }
 
 .profileImg {
-    height: 275px;
-    width: 275px;
+    height: 250px;
+    width: 250px;
     margin: 30px;
-    border: 5px solid white;
+    border: 5px solid #335381;
     border-radius: 100%;
 }
 
 .infoBoxRight {
-    height: 230px;
+    height: 170px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .textName {
     font-size: 36px;
     font-weight: bold;
+    color: #335381;
 }
 
 .textSlogan {
@@ -71,3 +76,91 @@
 }
 
 
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    .header {
+        height: auto; /* Let height adjust as per content */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #daecf3;
+        /* Adjust other background colors as needed */
+    }
+
+    .infoBox {
+        height: auto; /* Let height adjust as per content */
+        width: 90%; /* Adjust width to be responsive */
+        max-width: 400px; /* Set a maximum width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        border-radius: 20px;
+        justify-content: center;
+        padding: 20px; /* Add padding for better spacing */
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+
+    .profileImg {
+        height: 200px; /* Adjust image height */
+        width: 200px; /* Adjust image width */
+        margin: 20px;
+        border: 5px solid #335381;
+        border-radius: 100%;
+    }
+
+    .infoBoxRight {
+        height: auto; /* Let height adjust as per content */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Center align text */
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+
+    .textName {
+        font-size: 24px; /* Decrease font size */
+        font-weight: bold;
+        color: #335381;
+        margin-bottom: 5px; /* Adjust margin for spacing */
+    }
+
+    .textSlogan {
+        font-size: 16px; /* Decrease font size */
+        font-style: italic;
+        margin-bottom: 10px; /* Adjust margin for spacing */
+    }
+
+    .textRole {
+        font-size: 14px; /* Decrease font size */
+        transition: transform 0.25s ease-out;
+        margin-bottom: 8px; /* Adjust margin for spacing */
+    }
+
+    .textRole:hover {
+        transform: scale(1.02);
+    }
+
+    .socialBox {
+        width: 80%; /* Adjust width to be responsive */
+        max-width: 300px; /* Set a maximum width */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+
+    .socialButton {
+        font-size: 20px; /* Increase font size */
+        color: inherit;
+        text-decoration: inherit;
+        transition: transform 0.25s ease-out;
+    }
+
+    .socialButton:hover {
+        transform: scale(1.1);
+    }
+}

@@ -6,7 +6,8 @@
     flex-direction: row;
     justify-content: center; /* flex direction */
     align-items: center; 
-    background-color: rgb(0, 12, 45);
+    /* background-color: rgb(0, 12, 45); */
+    background-color: white;
 }
 
 .navBarButtonContainer {
@@ -23,6 +24,7 @@
     color: inherit;
     text-decoration: inherit;
     transition: all .2s ease-in-out; 
+    color: #335381;
 }
 
 .navButton:after {
