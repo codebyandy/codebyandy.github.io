@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.05afdf02.css",
-    "main.js": "/static/js/main.6d2002fd.js",
+    "main.css": "/static/css/main.9a55629e.css",
+    "main.js": "/static/js/main.41c964e9.js",
     "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
+    "static/media/rrv.png": "/static/media/rrv.6a080457fc8161c47990.png",
     "static/media/bio_profile.jpg": "/static/media/bio_profile.bb9e086f0f73cdb7c1ac.jpg",
-    "static/media/profile.jpg": "/static/media/profile.f00a4b573978c37af522.jpg",
+    "static/media/census.png": "/static/media/census.430aca34c3cb2574544d.png",
+    "static/media/crisp.png": "/static/media/crisp.0d2a81936bb3e067c612.png",
+    "static/media/profile.jpeg": "/static/media/profile.cdc0d88c2a7313f3ebab.jpeg",
+    "static/media/insulin.png": "/static/media/insulin.c1bcc6d9f5045250cd55.png",
     "static/media/wildlife_tn.png": "/static/media/wildlife_tn.d3c02b843882ecd5be3a.png",
     "static/media/solar_digital_tn.png": "/static/media/solar_digital_tn.ba211bde56bd7bbdca40.png",
     "static/media/petrov_tn.png": "/static/media/petrov_tn.abba56beb57563ab8a64.png",
@@ -13,12 +17,12 @@
     "static/media/hssi_tn.png": "/static/media/hssi_tn.7d8fe08edc6804fb6367.png",
     "static/media/recipal_tn.png": "/static/media/recipal_tn.378145716ba36a582faa.png",
     "index.html": "/index.html",
-    "main.05afdf02.css.map": "/static/css/main.05afdf02.css.map",
-    "main.6d2002fd.js.map": "/static/js/main.6d2002fd.js.map",
+    "main.9a55629e.css.map": "/static/css/main.9a55629e.css.map",
+    "main.41c964e9.js.map": "/static/js/main.41c964e9.js.map",
     "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05afdf02.css",
-    "static/js/main.6d2002fd.js"
+    "static/css/main.9a55629e.css",
+    "static/js/main.41c964e9.js"
   ]
 }
