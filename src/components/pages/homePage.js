@@ -33,13 +33,25 @@ function HomePage() {
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div className='projGallery'>
                 <div className='project'>
+                    <img className='projImg' src={ require('../../img/thumbnails/lfmc.png')} />
+                    <div className='projTxt'> 
+                        <div className='projDesc'>machine learning, sustainability</div>
+                        <div className='projTitle'>Leveraging transformers and remote sensing for mapping of live fuel moisture content</div>                        <div className='projLinks'>
+                            {/* <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
+                            <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a> */}
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/crisp.png')} />
                     <div className='projTxt'> 
+                        <div className='projDesc'>machine learning, sustainability</div>
                         <div className='projTitle'>Contrastive ground-level image and remote sensing pre-training improves representation learning for natural world imagery</div>
-                        {/* <div className='projAuthors'>Andy V. Huynh, Rohan Sikand, Jael Lopez-Saucedo, Claire Tang, Lauren Gillespie</div> */}
-                        {/* <div className='projDesc'>CS 197 Computer Science Research Project</div> */}
+                        <div className='projAuthors'>🏆 <a href='https://datascience.stanford.edu/news/sustainability-data-science-conference-awards'>2nd Best</a> Student Presentation at Sustainability Data Science Conference</div>
+                        <div className='projAuthors'>🏆 Accepted to Stanford Data Science Conference</div>
                         <div className='projLinks'>
-                            <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
+                            <a href="https://drive.google.com/file/d/1Aw0PtsxGLqHawh_H0LeGP9gul2GOIIF9/view?usp=sharing" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
+                            <a href="https://drive.google.com/file/d/1aZdlWfcVK9D_N6FOL2xogRRBtIKjHgPl/view" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp;
                             <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a>
                         </div>
                     </div>
@@ -47,7 +59,9 @@ function HomePage() {
                 <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/census.png')} />
                     <div className='projTxt'> 
-                        <div className='projTitle'>Exploring automated methods for drosophila census estimation + Adaptive tracking in response to insecticide pressure in Drosophila</div>
+                        <div className='projDesc'>machine learning, biology</div>
+                        <div className='projTitle'>Adaptive tracking in response to insecticide pressure in Drosophila, using automated census estimation</div>                            
+                        {/* <div className='projTitle'>Exploring automated methods for drosophila census estimation + Adaptive tracking in response to insecticide pressure in Drosophila</div> */}
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
                         <div className='projLinks'>
@@ -61,6 +75,7 @@ function HomePage() {
                 <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/rrv.png')} />
                     <div className='projTxt'> 
+                        <div className='projDesc'>biology</div>
                         <div className='projTitle'>How climate drives Ross River Virus and Barmah Forest Virus in Queensland, Australia</div>
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
@@ -72,6 +87,7 @@ function HomePage() {
                 <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/insulin.png')} />
                     <div className='projTxt'> 
+                        <div className='projDesc'>biology</div>
                         <div className='projTitle'>Small molecule-mediated insulin hypersecretion induces transient ER stress response and loss of beta cell function</div>
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}

@@ -11,7 +11,7 @@
 }
 
 .infoBox {
-    height: 70%;
+    height: 80%;
     width: 800px;
     display: flex;
     flex-direction: row;
@@ -32,10 +32,21 @@
 }
 
 .infoBoxRight {
-    height: 170px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
+}
+
+.infoBoxRightText {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content:space-around;  
+}
+
+.workPlease {
+    font-weight: bold;
 }
 
 .textName {
