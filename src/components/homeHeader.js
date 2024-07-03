@@ -20,16 +20,16 @@ function Header() {
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://cs.stanford.edu/')}}>
                             <div className='textRole'>💻 MS & BS Computer Science @ Stanford University</div>
                         </Link>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', paddingTop: '5px'}}>
-                            <a href="https://www.linkedin.com/in/andyviethuynh/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className='socialBox'>
+                            <Link className='socialButton' to='#' onClick={() => {window.open('https://www.linkedin.com/in/andyviethuynh/', '_blank')}}>
                                 <FaLinkedin size={20} />
-                            </a>
-                            <a href="https://x.com/andyvhuynh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            </Link>
+                            <Link className='socialButton' to='#' onClick={() => {window.open('https://x.com/andyvhuynh', '_blank')}}>
                                 <FaTwitter size={20} />
-                            </a>
-                            <a href="mailto:avhuynh@stanford.edu" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            </Link>
+                            <Link className='socialButton' to='#' onClick={() => {window.location.href = 'mailto:avhuynh@stanford.edu'}}>
                                 <FaEnvelope size={20} />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

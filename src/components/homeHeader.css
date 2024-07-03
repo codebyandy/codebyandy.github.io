@@ -70,6 +70,7 @@
 }
 
 .socialBox {
+    padding-top: 5px;
     width: 200px;
     display: flex;
     flex-direction: row;
@@ -85,7 +86,6 @@
 .socialButton:hover {
     transform: scale(1.1);
 }
-
 
 
 /* For mobile devices */
