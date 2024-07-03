@@ -20,7 +20,8 @@ function Header() {
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://cs.stanford.edu/')}}>
                             <div className='textRole'>💻 MS & BS Computer Science @ Stanford University</div>
                         </Link>
-                        <div className='socialBox'>
+                    </div>
+                    <div className='socialBox'>
                             <Link className='socialButton' to='#' onClick={() => {window.open('https://www.linkedin.com/in/andyviethuynh/', '_blank')}}>
                                 <FaLinkedin size={20} />
                             </Link>
@@ -31,7 +32,6 @@ function Header() {
                                 <FaEnvelope size={20} />
                             </Link>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
