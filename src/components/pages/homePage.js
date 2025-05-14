@@ -47,9 +47,11 @@ function HomePage() {
                     <div className='projTxt'> 
                         <div className='projDesc'>machine learning, sustainability</div>
                         <div className='projTitle'>Contrastive ground-level image and remote sensing pre-training improves representation learning for natural world imagery</div>
-                        <div className='projAuthors'>🏆 <a href='https://datascience.stanford.edu/news/sustainability-data-science-conference-awards'>2nd Best</a> Student Presentation at Sustainability Data Science Conference</div>
-                        <div className='projAuthors'>🏆 Accepted to Stanford Data Science Conference</div>
+                        <div className='projAuthors'>🏆 Published @ ECCV 2024</div>
+                        <div className='projAuthors'>🏆 Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
+                        <div className='projAuthors'>🏆 Presented @ Stanford Data Science Conference</div>
                         <div className='projLinks'>
+                        <a href="https://eccv.ecva.net/virtual/2024/poster/353" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1Aw0PtsxGLqHawh_H0LeGP9gul2GOIIF9/view?usp=sharing" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1aZdlWfcVK9D_N6FOL2xogRRBtIKjHgPl/view" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp;
                             <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a>
@@ -64,6 +66,7 @@ function HomePage() {
                         {/* <div className='projTitle'>Exploring automated methods for drosophila census estimation + Adaptive tracking in response to insecticide pressure in Drosophila</div> */}
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
+                        <div className='projAuthors'>🏆 Published in Nature 2024</div>
                         <div className='projLinks'>
                             <a href="https://github.com/codebyandy/drosophila-census/blob/main/meeting_slides.pdf">slides</a>&nbsp; | &nbsp; 
                             <a href="https://drive.google.com/file/d/1pJ3B66c8V80N1IAPZV-PMTDdZc2Wh5Uy/view?usp=sharing">poster</a>&nbsp; | &nbsp;
@@ -91,14 +94,29 @@ function HomePage() {
                         <div className='projTitle'>Small molecule-mediated insulin hypersecretion induces transient ER stress response and loss of beta cell function</div>
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
-                        <div className='multiLinks'>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/35641126/" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp; 
+                        <div className='projAuthors'>🏆 Published in Endocrinology 2022</div>
+                        <div className='projLinks'>
+                            <a href="https://drive.google.com/file/d/1e8yiKTzyp-Fjm-V5n4PcR4J4LJ4tNjsI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp; 
                             <a href="https://drive.google.com/file/d/11Tz0xUeuYw3y4TwstQspqJlcQC_LN5zf/view?usp=drive_link" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp; 
-                            <a href="https://drive.google.com/file/d/1e8yiKTzyp-Fjm-V5n4PcR4J4LJ4tNjsI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">presentation</a>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/35641126/" target="_blank" rel="noopener noreferrer">paper</a>
                         </div>
 
                     </div>
                 </div>
+            </div>
+            <div className='heading' style={{marginTop: "50px"}}>Projects</div>
+            <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', textAlign: 'center'}}>
+                <div>GPT-powered Discord hate speech moderation chatbot</div>
+                <div>White blood cell classification, feature extraction or CNN</div>
+                <div>News article hyperpartisanship detector</div>
+                <div>Unsupervised algorithms for bat bioacoustic recordings</div>
+                <div>Solar panel size estimation from remote sensing imagery</div>
+                <div>Distanced-informed loss for geospatial contrastive pre-training</div>
+                <div>Trees of San Francisco data analysis using SQL</div>
+                <div>Personalized movie recommendation chatbot</div>
+                <div>Customizable recipe mobile app with React Native</div>
+                <div>Social book logging mobile app with Swift</div>
             </div>
             <div className='heading' style={{marginTop: "50px"}}>Other</div>
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
