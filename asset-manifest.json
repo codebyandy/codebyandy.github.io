@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3276e60.css",
-    "main.js": "/static/js/main.e4ebbcb8.js",
+    "main.js": "/static/js/main.956975cc.js",
     "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
     "static/media/lfmc.png": "/static/media/lfmc.17f2fb26f79928dc1198.png",
     "static/media/rrv.png": "/static/media/rrv.6a080457fc8161c47990.png",
@@ -11,6 +11,7 @@
     "static/media/profile.jpeg": "/static/media/profile.cdc0d88c2a7313f3ebab.jpeg",
     "static/media/insulin.png": "/static/media/insulin.c1bcc6d9f5045250cd55.png",
     "static/media/wildlife_tn.png": "/static/media/wildlife_tn.d3c02b843882ecd5be3a.png",
+    "static/media/stemuli.png": "/static/media/stemuli.96ff632e5eb95fe14a25.png",
     "static/media/solar_digital_tn.png": "/static/media/solar_digital_tn.ba211bde56bd7bbdca40.png",
     "static/media/petrov_tn.png": "/static/media/petrov_tn.abba56beb57563ab8a64.png",
     "static/media/mordecai_tn.png": "/static/media/mordecai_tn.453a6c26a560ae93c4ac.png",
@@ -19,11 +20,11 @@
     "static/media/recipal_tn.png": "/static/media/recipal_tn.378145716ba36a582faa.png",
     "index.html": "/index.html",
     "main.e3276e60.css.map": "/static/css/main.e3276e60.css.map",
-    "main.e4ebbcb8.js.map": "/static/js/main.e4ebbcb8.js.map",
+    "main.956975cc.js.map": "/static/js/main.956975cc.js.map",
     "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3276e60.css",
-    "static/js/main.e4ebbcb8.js"
+    "static/js/main.956975cc.js"
   ]
 }
