@@ -14,10 +14,10 @@ function Header() {
                     {/* <div className='infoBoxRightText'> */}
                     <div className='textName'>Hello there, I'm Andy!</div>
                     {/* <div className='workPlease'>👉 Seeking full-time roles in machine learning</div> */}
-                    <div style={{ paddingTop: '10px'}}>I'm a recent MS CS grad, specializing in AI, with research experience in machine learning for sustainability.</div>
+                    <div style={{ paddingTop: '10px'}}>I'm an AI/ML engineer in the ed-tech space. I've also conducted research in ML for sustainability.</div>
                     <div style={{ paddingTop: '10px'}}>
-                        <Link className='socialButton' to='#' onClick={() => {window.open('https://koningslab.stanford.edu/')}}>
-                            <div className='textRole'>🌱 ML Researcher @ Stanford Doerr School of Sustainability</div>
+                        <Link className='socialButton' to='#' onClick={() => {window.open('https://stemuli.ai/')}}>
+                            <div className='textRole'>📚 AI Engineer @ Stemuli</div>
                         </Link>
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://cs.stanford.edu/')}}>
                             <div className='textRole'>💻 MS & BS Computer Science @ Stanford University</div>

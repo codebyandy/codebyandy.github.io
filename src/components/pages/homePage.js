@@ -29,7 +29,27 @@ function HomePage() {
                     ✨ <span style={{color: '#335381', 'font-weight': 'bold'}}>  Seeking a software engineering internship for summer 2023. </span>
                 </div>
             </div> */}
-            <div className='heading'>Research</div>
+            <div className='heading'>Work</div>
+            <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
+            <div className='projGallery'>
+                <div className='project'>
+                    <img className='projImg' src={ require('../../img/thumbnails/stemuli.png')} />
+                    <div className='projTxt'> 
+                        <div className='projDesc'>ai, ed-tech</div>
+                        <div className='projTitle'>AI Engineer @ Stemuli</div>                        
+                        <div className='projLinks'>
+                            {/* <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
+                            <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a> */}
+                        </div>
+                        <div className='projAuthors'>👉 Dec 2024 — Present</div>
+                        <div className='projAuthors'>👉 LLM-powered curriculum generation and validation</div>
+                        <div className='projAuthors'>👉 AI learning companion</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='heading' style={{marginTop: "50px"}}>Research</div>
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div className='projGallery'>
                 <div className='project'>
@@ -104,7 +124,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-            <div className='heading' style={{marginTop: "50px"}}>Projects</div>
+            {/* <div className='heading' style={{marginTop: "50px"}}>Projects</div>
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', textAlign: 'center'}}>
                 <div>GPT-powered Discord hate speech moderation chatbot</div>
@@ -117,18 +137,18 @@ function HomePage() {
                 <div>Personalized movie recommendation chatbot</div>
                 <div>Customizable recipe mobile app with React Native</div>
                 <div>Social book logging mobile app with Swift</div>
-            </div>
+            </div> */}
             <div className='heading' style={{marginTop: "50px"}}>Other</div>
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div>
-                <Link className='socialButton' to='#' onClick={() => {window.open('https://resed.stanford.edu/neighborhoods/aspen/aspen-houses/larkin')}}>
-                    <div className='textRole'>🏠 Resident Assistant @ Larkin House</div>
-                </Link>
-                <Link className='socialButton' to='#' onClick={() => {window.open('https://jrbp.stanford.edu/')}}>
-                    <div className='textRole'>🌳 Docent @ Jasper Ridge Biological Preserve</div>
-                </Link>
                 <Link className='socialButton' to='#' onClick={() => {window.open('https://codebyandy.github.io/portfolio')}}>
                     <div className='textRole'>📸 Wildlife photographer</div>
+                </Link>
+                <Link className='socialButton' to='#' onClick={() => {window.open('https://resed.stanford.edu/neighborhoods/aspen/aspen-houses/larkin')}}>
+                    <div className='textRole'>🏠 (prev) Resident Assistant @ Larkin House</div>
+                </Link>
+                <Link className='socialButton' to='#' onClick={() => {window.open('https://jrbp.stanford.edu/')}}>
+                    <div className='textRole'>🌳 (prev) Docent @ Jasper Ridge Biological Preserve</div>
                 </Link>
                 {/* <Link className='socialButton' to='#' onClick={() => {window.open('https://www.moisesexpositoalonso.org/')}}>
                     <div className='textRole'>🗞️ (ex) Managing Editor of Photo & Video @ The Stanford Daily</div>
