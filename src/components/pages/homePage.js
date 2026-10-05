@@ -33,7 +33,7 @@ function HomePage() {
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div className='projGallery'>
                 <div className='project'>
-                    <img className='projImg' src={ require('../../img/thumbnails/stemuli.png')} />
+                    <img className='projImg' src={ require('../../img/thumbnails/founder_tycoon.png')} />
                     <div className='projTxt'> 
                         <div className='projDesc'>ai, ed-tech</div>
                         <div className='projTitle'>AI Engineer @ Stemuli</div>                        
@@ -72,7 +72,8 @@ function HomePage() {
                         <a href="https://eccv.ecva.net/virtual/2024/poster/353" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1Aw0PtsxGLqHawh_H0LeGP9gul2GOIIF9/view?usp=sharing" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1aZdlWfcVK9D_N6FOL2xogRRBtIKjHgPl/view" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp;
-                            <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a>
+                            <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a>&nbsp; | &nbsp;
+                            <a href="https://huggingface.co/datasets/andyvhuynh/NatureMultiView" target="_blank" rel="noopener noreferrer">dataset</a>
                         </div>
                     </div>
                 </div>
