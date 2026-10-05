@@ -86,10 +86,12 @@ function HomePage() {
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
                         <div className='projAuthors'>• Published in Nature 2024</div>
+                        <div className='projAuthors'>• Published in Nature Ecology & Evolution 2025</div>
                         <div className='projLinks'>
-                            <a href="https://github.com/codebyandy/drosophila-census/blob/main/meeting_slides.pdf">slides</a>&nbsp; | &nbsp; 
+                            <a href="https://github.com/codebyandy/drosophila-census/blob/main/meeting_slides.pdf">slides</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1pJ3B66c8V80N1IAPZV-PMTDdZc2Wh5Uy/view?usp=sharing">poster</a>&nbsp; | &nbsp;
-                            <a href="https://www.biorxiv.org/content/10.1101/2023.10.16.562586v1">paper</a>&nbsp; | &nbsp; 
+                            <a href="https://www.biorxiv.org/content/10.1101/2023.10.16.562586v1">paper 1</a>&nbsp; | &nbsp;
+                            <a href="https://www.nature.com/articles/s41559-025-02853-x" target="_blank" rel="noopener noreferrer">paper 2</a>&nbsp; | &nbsp;
                             <a href="https://github.com/codebyandy/drosophila-census">code</a>
                         </div>
                     </div>
