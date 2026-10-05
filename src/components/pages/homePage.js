@@ -41,9 +41,7 @@ function HomePage() {
                             {/* <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
                             <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a> */}
                         </div>
-                        <div className='projAuthors'>👉 Dec 2024 — Present</div>
-                        <div className='projAuthors'>👉 LLM-powered curriculum generation and validation</div>
-                        <div className='projAuthors'>👉 AI learning companion</div>
+                        <div className='projAuthors'>Building and shipping end-to-end AI agent systems for Founder Tycoon, an AI-native video game that teaches students AI literacy and entrepreneurship.</div>
                     </div>
                 </div>
             </div>
