@@ -17,7 +17,7 @@ function Header() {
                     <div style={{ paddingTop: '10px'}}>I'm an AI/ML engineer in the ed-tech space. I've also conducted research in ML for sustainability.</div>
                     <div style={{ paddingTop: '10px'}}>
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://stemuli.ai/')}}>
-                            <div className='textRole'>📚 AI Engineer @ Stemuli</div>
+                            <div className='textRole'>• AI Engineer @ Stemuli</div>
                         </Link>
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://cs.stanford.edu/')}}>
                             <div className='textRole'>💻 MS & BS Computer Science @ Stanford University</div>

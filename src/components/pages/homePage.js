@@ -67,9 +67,9 @@ function HomePage() {
                     <div className='projTxt'> 
                         <div className='projDesc'>machine learning, sustainability</div>
                         <div className='projTitle'>Contrastive ground-level image and remote sensing pre-training improves representation learning for natural world imagery</div>
-                        <div className='projAuthors'>🏆 Published @ ECCV 2024</div>
-                        <div className='projAuthors'>🏆 Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
-                        <div className='projAuthors'>🏆 Presented @ Stanford Data Science Conference</div>
+                        <div className='projAuthors'>• Published @ ECCV 2024</div>
+                        <div className='projAuthors'>• Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
+                        <div className='projAuthors'>• Presented @ Stanford Data Science Conference</div>
                         <div className='projLinks'>
                         <a href="https://eccv.ecva.net/virtual/2024/poster/353" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1Aw0PtsxGLqHawh_H0LeGP9gul2GOIIF9/view?usp=sharing" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
@@ -86,7 +86,7 @@ function HomePage() {
                         {/* <div className='projTitle'>Exploring automated methods for drosophila census estimation + Adaptive tracking in response to insecticide pressure in Drosophila</div> */}
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
-                        <div className='projAuthors'>🏆 Published in Nature 2024</div>
+                        <div className='projAuthors'>• Published in Nature 2024</div>
                         <div className='projLinks'>
                             <a href="https://github.com/codebyandy/drosophila-census/blob/main/meeting_slides.pdf">slides</a>&nbsp; | &nbsp; 
                             <a href="https://drive.google.com/file/d/1pJ3B66c8V80N1IAPZV-PMTDdZc2Wh5Uy/view?usp=sharing">poster</a>&nbsp; | &nbsp;
@@ -114,7 +114,7 @@ function HomePage() {
                         <div className='projTitle'>Small molecule-mediated insulin hypersecretion induces transient ER stress response and loss of beta cell function</div>
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
-                        <div className='projAuthors'>🏆 Published in Endocrinology 2022</div>
+                        <div className='projAuthors'>• Published in Endocrinology 2022</div>
                         <div className='projLinks'>
                             <a href="https://drive.google.com/file/d/1e8yiKTzyp-Fjm-V5n4PcR4J4LJ4tNjsI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp; 
                             <a href="https://drive.google.com/file/d/11Tz0xUeuYw3y4TwstQspqJlcQC_LN5zf/view?usp=drive_link" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp; 
@@ -142,13 +142,13 @@ function HomePage() {
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div>
                 <Link className='socialButton' to='#' onClick={() => {window.open('https://codebyandy.github.io/portfolio')}}>
-                    <div className='textRole'>📸 Wildlife photographer</div>
+                    <div className='textRole'>• Wildlife photographer</div>
                 </Link>
                 <Link className='socialButton' to='#' onClick={() => {window.open('https://resed.stanford.edu/neighborhoods/aspen/aspen-houses/larkin')}}>
-                    <div className='textRole'>🏠 (prev) Resident Assistant @ Larkin House</div>
+                    <div className='textRole'>• (prev) Resident Assistant @ Larkin House</div>
                 </Link>
                 <Link className='socialButton' to='#' onClick={() => {window.open('https://jrbp.stanford.edu/')}}>
-                    <div className='textRole'>🌳 (prev) Docent @ Jasper Ridge Biological Preserve</div>
+                    <div className='textRole'>• (prev) Docent @ Jasper Ridge Biological Preserve</div>
                 </Link>
                 {/* <Link className='socialButton' to='#' onClick={() => {window.open('https://www.moisesexpositoalonso.org/')}}>
                     <div className='textRole'>🗞️ (ex) Managing Editor of Photo & Video @ The Stanford Daily</div>
