@@ -14,7 +14,9 @@ function Header() {
                     {/* <div className='infoBoxRightText'> */}
                     <div className='textName'>Hello there, I'm Andy!</div>
                     {/* <div className='workPlease'>👉 Seeking full-time roles in machine learning</div> */}
-                    <div style={{ paddingTop: '10px'}}>I'm an AI/ML engineer in the ed-tech space. I've also conducted research in ML for sustainability.</div>
+                    <div style={{ paddingTop: '10px'}}>I'm an AI/ML engineer at an early-stage startup in the edtech space.</div>
+                    <div style={{ paddingTop: '10px'}}>Previously, at Stanford University, I worked on applied ML for the environment and graduated with a MS in Computer Science.</div>
+                    <div style={{ paddingTop: '10px'}}>Happy to chat about opportunities and my experiences!</div>
                     <div style={{ paddingTop: '10px'}}>
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://stemuli.ai/')}}>
                             <div className='textRole'>• AI Engineer @ Stemuli</div>

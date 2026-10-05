@@ -35,7 +35,7 @@ function HomePage() {
                 <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/founder_tycoon.png')} />
                     <div className='projTxt'> 
-                        <div className='projDesc'>ai, ed-tech</div>
+                        <div className='projDesc'>ai, edtech</div>
                         <div className='projTitle'>AI Engineer @ Stemuli</div>                        
                         <div className='projLinks'>
                             {/* <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
@@ -50,16 +50,6 @@ function HomePage() {
             <div className='heading' style={{marginTop: "50px"}}>Research</div>
             <div style={{width: '30%', borderTop: '2px solid #446491', marginBottom: '30px'}}></div>
             <div className='projGallery'>
-                <div className='project'>
-                    <img className='projImg' src={ require('../../img/thumbnails/lfmc.png')} />
-                    <div className='projTxt'> 
-                        <div className='projDesc'>machine learning, sustainability</div>
-                        <div className='projTitle'>Leveraging transformers and remote sensing for mapping of live fuel moisture content</div>                        <div className='projLinks'>
-                            {/* <a href="https://drive.google.com/file/d/1GdZ8Dyc8F0FxG722sBi_4crn4nHVOCIw/view" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
-                            <a href="https://github.com/moiexpositoalonsolab/crisp-private" target="_blank" rel="noopener noreferrer">code</a> */}
-                        </div>
-                    </div>
-                </div>
                 <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/crisp.png')} />
                     <div className='projTxt'> 
