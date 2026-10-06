@@ -22,7 +22,7 @@ function Header() {
                             <div className='textRole'>• AI Engineer @ Stemuli</div>
                         </Link>
                         <Link className='socialButton' to='#' onClick={() => {window.open('https://cs.stanford.edu/')}}>
-                            <div className='textRole'>💻 MS & BS Computer Science @ Stanford University</div>
+                            <div className='textRole'>• MS & BS Computer Science @ Stanford University</div>
                         </Link>
                     </div>
                     <div className='socialBox'>
