@@ -56,7 +56,7 @@ function HomePage() {
                         <div className='projDesc'>machine learning, sustainability</div>
                         <div className='projTitle'>Contrastive ground-level image and remote sensing pre-training improves representation learning for natural world imagery</div>
                         <div className='projAuthors'>• Published @ ECCV 2024</div>
-                        <div className='projAuthors'>• Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
+                        <div className='projAuthors'>• Awarded Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
                         <div className='projAuthors'>• Presented @ Stanford Data Science Conference</div>
                         <div className='projLinks'>
                         <a href="https://eccv.ecva.net/virtual/2024/poster/353" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp;
