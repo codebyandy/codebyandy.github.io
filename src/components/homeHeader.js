@@ -33,9 +33,9 @@ function Header() {
                             <Link className='socialButton' to='#' onClick={() => {window.open('https://scholar.google.com/citations?hl=en&user=ESTubqQAAAAJ&view_op=list_works&gmla=ALUCkoUjsREPLOVIcBREvjUebW-UL5yny2mZYqXd_FQTidGPmx7XUeSxztKHzj71uI1lxmFpF3NjOA1vrniTdKq1', '_blank')}}>
                                 <SiGooglescholar size={20} />
                             </Link>
-                            {/* <Link className='socialButton' to='#' onClick={() => {window.open('https://huggingface.co/andyvhuynh', '_blank')}}>
+                            <Link className='socialButton' to='#' onClick={() => {window.open('https://huggingface.co/andyvhuynh', '_blank')}}>
                                 <SiHuggingface size={20} />
-                            </Link> */}
+                            </Link>
                             <Link className='socialButton' to='#' onClick={() => {window.location.href = 'mailto:andyvhuynh@gmail.com'}}>
                                 <FaEnvelope size={20} />
                             </Link>
