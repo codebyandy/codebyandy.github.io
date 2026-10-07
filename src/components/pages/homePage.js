@@ -81,7 +81,7 @@ function HomePage() {
                     <img className='projImg' src={ require('../../img/thumbnails/census.png')} />
                     <div className='projTxt'> 
                         <div className='projDesc'>machine learning, biology</div>
-                        <div className='projTitle'>Adaptive tracking in response to insecticide pressure in Drosophila, using automated census estimation</div>                            
+                        <div className='projTitle'>Tracking insecticide-driven adaptation in Drosophila via automated population census</div>                            
                         {/* <div className='projTitle'>Exploring automated methods for drosophila census estimation + Adaptive tracking in response to insecticide pressure in Drosophila</div> */}
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
