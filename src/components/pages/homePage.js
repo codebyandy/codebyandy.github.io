@@ -71,7 +71,7 @@ function HomePage() {
                     <img className='projImg' src={ require('../../img/thumbnails/lfmc.png')} />
                     <div className='projTxt'>
                         <div className='projDesc'>machine learning, sustainability</div>
-                        <div className='projTitle'>Transformer-based live fuel moisture content estimation from remote sensing</div>
+                        <div className='projTitle'>Wildfire risk mapping from remote sensing using transformers</div>
                         <div className='projLinks'>
                             <a href="https://github.com/codebyandy/lfmc-transformer" target="_blank" rel="noopener noreferrer">code</a>
                         </div>
