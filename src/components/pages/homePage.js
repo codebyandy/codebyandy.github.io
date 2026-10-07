@@ -68,6 +68,16 @@ function HomePage() {
                     </div>
                 </div>
                 <div className='project'>
+                    <img className='projImg' src={ require('../../img/thumbnails/lfmc.png')} />
+                    <div className='projTxt'>
+                        <div className='projDesc'>machine learning, sustainability</div>
+                        <div className='projTitle'>Transformer-based live fuel moisture content estimation from remote sensing</div>
+                        <div className='projLinks'>
+                            <a href="https://github.com/codebyandy/lfmc-transformer" target="_blank" rel="noopener noreferrer">code</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
                     <img className='projImg' src={ require('../../img/thumbnails/census.png')} />
                     <div className='projTxt'> 
                         <div className='projDesc'>machine learning, biology</div>
