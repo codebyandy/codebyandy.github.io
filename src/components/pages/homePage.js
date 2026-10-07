@@ -72,6 +72,7 @@ function HomePage() {
                     <div className='projTxt'>
                         <div className='projDesc'>machine learning, sustainability</div>
                         <div className='projTitle'>Wildfire risk mapping from remote sensing using transformers</div>
+                        <div className='projAuthors'>• Advised by Prof. Alexandra Konings, Stanford</div>
                         <div className='projLinks'>
                             <a href="https://github.com/codebyandy/lfmc-transformer" target="_blank" rel="noopener noreferrer">code</a>
                         </div>
@@ -87,6 +88,7 @@ function HomePage() {
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
                         <div className='projAuthors'>• Published in Nature 2024</div>
                         <div className='projAuthors'>• Published in Nature Ecology & Evolution 2025</div>
+                        <div className='projAuthors'>• Advised by Prof. Dmitri Petrov, Stanford</div>
                         <div className='projLinks'>
                             <a href="https://github.com/codebyandy/drosophila-census/blob/main/meeting_slides.pdf">slides</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1pJ3B66c8V80N1IAPZV-PMTDdZc2Wh5Uy/view?usp=sharing">poster</a>&nbsp; | &nbsp;
@@ -103,6 +105,7 @@ function HomePage() {
                         <div className='projTitle'>How climate drives Ross River Virus and Barmah Forest Virus in Queensland, Australia</div>
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
+                        <div className='projAuthors'>• Advised by Prof. Erin Mordecai, Stanford</div>
                         <div className='projLinks'>
                             <a href="https://drive.google.com/file/d/1Buq0ofCHShL4k2CRSBwBfwcFQWxJrvtV/view?usp=sharing">poster</a>
                         </div>
@@ -116,6 +119,7 @@ function HomePage() {
                         {/* <div className='projAuthors'>Andy V. Huynh, Andreas Paepcke</div> */}
                         {/* <div className='projDesc'>CS 191W Writing-Intensive Independent Study</div> */}
                         <div className='projAuthors'>• Published in Endocrinology 2022</div>
+                        <div className='projAuthors'>• Advised by Prof. Melanie Cobb, UT Southwestern</div>
                         <div className='projLinks'>
                             <a href="https://drive.google.com/file/d/1e8yiKTzyp-Fjm-V5n4PcR4J4LJ4tNjsI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp; 
                             <a href="https://drive.google.com/file/d/11Tz0xUeuYw3y4TwstQspqJlcQC_LN5zf/view?usp=drive_link" target="_blank" rel="noopener noreferrer">poster</a>&nbsp; | &nbsp; 
