@@ -58,6 +58,7 @@ function HomePage() {
                         <div className='projAuthors'>• Published @ ECCV 2024</div>
                         <div className='projAuthors'>• Awarded Best Student Research, 2nd @ Stanford Sustainability Data Science Conference</div>
                         <div className='projAuthors'>• Presented @ Stanford Data Science Conference</div>
+                        <div className='projAuthors'>• Advised by  Prof. Moisés Expósito-Alonso, Carnegie Science</div>
                         <div className='projLinks'>
                         <a href="https://eccv.ecva.net/virtual/2024/poster/353" target="_blank" rel="noopener noreferrer">paper</a>&nbsp; | &nbsp;
                             <a href="https://drive.google.com/file/d/1Aw0PtsxGLqHawh_H0LeGP9gul2GOIIF9/view?usp=sharing" target="_blank" rel="noopener noreferrer">presentation</a>&nbsp; | &nbsp;
