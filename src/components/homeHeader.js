@@ -36,7 +36,7 @@ function Header() {
                             {/* <Link className='socialButton' to='#' onClick={() => {window.open('https://huggingface.co/andyvhuynh', '_blank')}}>
                                 <SiHuggingface size={20} />
                             </Link> */}
-                            <Link className='socialButton' to='#' onClick={() => {window.location.href = 'mailto:avhuynh@stanford.edu'}}>
+                            <Link className='socialButton' to='#' onClick={() => {window.location.href = 'mailto:andyvhuynh@gmail.com'}}>
                                 <FaEnvelope size={20} />
                             </Link>
                         </div>
